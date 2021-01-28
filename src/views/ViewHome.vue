@@ -1,6 +1,13 @@
 <template>
   <main>
-    <booking></booking>
+    <booking
+      price="298"
+      rating="4.5"
+      numberOfVotes="123"
+      :unavailableDates="[]"
+      :selectedDates="[]">
+
+    </booking>
   </main>
 </template>
 
